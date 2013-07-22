@@ -26,12 +26,12 @@ Migrate database
 	There are some nameing rules.  
 		please check [ http://flywaydb.org/documentation/migration/sql.html ]  
 
-②migrate 
----------------------------------
+②migrate   
 	enter [ flyway migrate ]  
 	sql files in /sql directory are executed from lowest to highest of these version number.  
   
   
-If failed to migrate  
+If failed to migrate
+---------------------------------
 ①repair database  
 	enter [ flyway repair ]  
