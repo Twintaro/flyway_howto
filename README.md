@@ -9,7 +9,7 @@ Getting Started
 ---------------------------------
 ### ①settings  
 edit settingfile [ `/conf/flyway.properties` ]  
-required setting is ...  
+required settings are ...  
 * flyway.url(Jdbc url to use to connect to the database)  
 * flyway.user(User to use to connect to the database)  
 * flyway.password(Password to use to connect to the database)  
