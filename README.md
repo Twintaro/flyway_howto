@@ -5,7 +5,8 @@ The latest version of Flyway
 http://flywaydb.org/getstarted/download.html  
 
 
-Getting Started  
+Getting Started
+---------------------------------
 ①settings  
 edit settingfile [ /conf/flyway.properties]  
 	required setting is ...  
@@ -18,13 +19,15 @@ edit settingfile [ /conf/flyway.properties]
 	the table [ schema_version ] is created.  
 		migration infomations are saved in this table.  
   
-Migrate database  
+Migrate database
+---------------------------------
 ①add sql files  
 	add sql files to [ /sql ] directory.  
 	There are some nameing rules.  
 		please check [ http://flywaydb.org/documentation/migration/sql.html ]  
 
-②migrate  
+②migrate 
+---------------------------------
 	enter [ flyway migrate ]  
 	sql files in /sql directory are executed from lowest to highest of these version number.  
   
